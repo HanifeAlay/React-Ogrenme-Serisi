@@ -6,3 +6,42 @@ Kaynak olarak : Patika.dev üzerinden öğreniyorum fakat onun react başlangıc
 
 İletişim : hanifealay@icloud.com
 linkedin : hanifeAlay
+
+Day 2.
+jsx {} : js kodlarını html içinde js oldugunu göstermek için kullanırız
+
+- for example:
+  function orn(){
+  Burada yazdıgımız kodu
+  const firstName = "Hanife"
+  return (
+    <div>
+        <p> burada js olaraak okutmak için {firstName}</p>
+        bu şekilde süslü parantezle yazdıgmız da doğru çalışacaktır.
+    </div>
+    )
+    }
+
+* Ternary Operator
+  if else kısaltılmış hali ?, :
+
+map :
+aslında js den bilmemiz gereken ama benim yeni öğrendiğim arrylistin kısaltılmış modern hali denilebilir.
+
+map yaparken console pbakarsanız hata alırsınız bunun sebebi her bir divin bi ıd ye ihtiyac duymasıdır bizde bunun için div içine bir "key" ile benzesiz bir anahtar veriyoruz "index"
+for example;
+
+<div key={index}> 
+      {isim}
+     </div>
+
+Ve bugünün son öğrenimi bir div'e css özelliiği verme hemen örnekle göstereyim.
+for example,
+
+<div key={index} style={{backgroundColor: "pink"}}> 
+      {isim}
+     </div>
+Burada önemli olan style süslü parantezleri 
+style = {bu ilk açılan parantez jsx ait {işte bu css ait parantez. özellikler buraya yazıyorz}}
+
+Bugün tüm öğrendiklerim bunlardı. Bugüne not düşmem gerekirse React düşündüğümden daha zor olacak sanırım :(.
