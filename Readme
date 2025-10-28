@@ -35,7 +35,7 @@ for example;
       {isim}
      </div>
 
-Ve bugünün son öğrenimi bir div'e css özelliiği verme hemen örnekle göstereyim.
+Ve bugünün son öğrenimi bir div e css özelliiği verme hemen örnekle göstereyim.
 for example,
 
 <div key={index} style={{backgroundColor: "pink"}}> 
@@ -45,3 +45,23 @@ Burada önemli olan style süslü parantezleri
 style = {bu ilk açılan parantez jsx ait {işte bu css ait parantez. özellikler buraya yazıyorz}}
 
 Bugün tüm öğrendiklerim bunlardı. Bugüne not düşmem gerekirse React düşündüğümden daha zor olacak sanırım :(.
+
+28 - 10 - 2025
+Kaldığım yerden devam ediyorum..
+
+Compenent.
+
+Bugünün konusu compenetler bu konu hakkındaki en önemli şey kompenentleri bir kutu gibi düşünmemiz ilk ve en büyük kutumuz App kutusu (compenent) daha sonra bunu içine eklyeceğimiz her şey örn; footer, usars, menü, navbar vs. gibi şeyler hepsi bu kotunu içinde başka başka kutular ve bu kutuların özelliği ise bir den çok defa kopyalayım kullanılıyor olabilmesi. Tekrar tekrar kod yazmamıza gerek kalmadan bu kutuları istediğimiz yerde çağırabiliyoruz ile istediğimiz her yere ekleyebiliyoruz.
+
+* Fragment = <> </>
+       Bu bizim yaptıgım div sarmalayacısının görevini görür.
+
+
+Export Default = Export
+
+ikisinn arasındaki fark Export Default sayfanın tamamını import eder yani taşır ve buna dilediğiniz ismi verebilirsiniz Fakat Export sadece sayfanın içindeki bir kısmı alır ve hangi ismi verdiyseniz onunla çağırmalısınız.
+
+Props 
+Bir compenentden başka bir compenente veri taşımaya denir.
+
+Burası biraz karışık geldi bana anladıgımda açıklamasını yazacagım :)
