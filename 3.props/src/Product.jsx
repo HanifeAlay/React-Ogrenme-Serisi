@@ -1,16 +1,19 @@
 import React from 'react'
 
-function Product(props) {
-  console.log(props)
+function Product({pencilName, price}) {
+  
   return (
     
     <div>
-        <div>ÜRÜN BİLGİLERi</div>
-      <hr />
-        <div>
-            <div>İsim : {props.productName}</div>
-            <div>Fiyat : {props.price} TL</div>
-        </div>
+        <div>ÜRÜNLER</div>
+        <>
+        <div>Pencil : {pencilName}</div>
+        <div>Fiyat : {price}TL </div>
+        </>
+     
+    
+
+
        
         
     </div>

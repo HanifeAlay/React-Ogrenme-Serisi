@@ -64,4 +64,22 @@ ikisinn arasındaki fark Export Default sayfanın tamamını import eder yani ta
 Props 
 Bir compenentden başka bir compenente veri taşımaya denir.
 
-Burası biraz karışık geldi bana anladıgımda açıklamasını yazacagım :)
+Yukarıda verdiğim kutu örneklerini düşünün bir kutudan başka bir kutuya veri taşıyoruz özü bu aslında. Birde bunu yaparken destructuring kullanıyourz,  bu da bizim birsürü şey yazmaktan kısaltılmış bir şekilde yazmamızı sağlıyor. <3
+
+29-10-2025
+"29 EKİM CUMHURİYET BAYRAMIMIZ KUTLU OLSUN"
+
+Props tekrarı ile başlıyorum..
+
+useState / hooks
+* state bir React compenentin içinde veriyi tutmaya ve güncellemeye yarar.
+
+!! State hakkında bilinmesi gereken en önemli şey her yenilendiğinde yeniden render edilmeisdir bu da programı aşırı yavaşlatır. Burada şöyle düşünmeyin ne kadar yavaşlatabilir ki ?  yada ne zararı olur ki ?  büyük düşünün bir uygulama geliştirdiniz yada çok büyük bir web sitesi geliştiriniz ve bir şeye her bastığınızda yüklenmesi dakikalar alıyor.. işte bu yavaşlamak böyle birşey.
+kullanımı 4.useState de var yorum satırından çıkararak deneyimleyebilirisniz.
+
+
+useEffect / hooks
+* kısaca şu şekilde özetleyebilirm bir veri değiştiğinde ne yapmamız gerektiğini söylüyoruz.
+useState ile useEffect farkı ise useState veri tutar ve değiştirir, useEffect veri değiştiğinde şunu yap komutuyla çalışır. 
+
+vee gün sonu "çalışmaya devam ettiğin sürece ne kadar yavaş gittiğinin bir önemi yok" <3
