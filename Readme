@@ -83,3 +83,13 @@ useEffect / hooks
 useState ile useEffect farkı ise useState veri tutar ve değiştirir, useEffect veri değiştiğinde şunu yap komutuyla çalışır. 
 
 vee gün sonu "çalışmaya devam ettiğin sürece ne kadar yavaş gittiğinin bir önemi yok" <3
+
+31-Ekim-Cuma
+Bugun 6. Dersteyim ve konumuz Debugging
+başladıgımdandan beri en kolay ders oldğunu döyleyebilirim.
+kısaca özetlemem gerekirse yazdıgınız kodlarda hangi satırda hata oldugunu düşünüyorsanız o satırın altına Debugging bırakın ve kodlarınızı yeniden çalıştırın incele bölümünden kaynak kısmına geldiğiniz zaman hatalarınızı görüyor olacaksınız. 
+
+Vee ilk React projemi yapıyorum. Enes Bayram YouTube derslerinde o kendi kurslarını yaptı bende herşeyi aynı fakt konusu farklı olacak şekilde kendime uyarlıyorum çünkü yaptığım her projede verimli çalışabilmem için ilham alıyor olabilmem ve görsellik benim için çok önemli :)
+
+3-Kasım-Pazartesi 
+İlk React projemi tamamladım ve GİtHuba ayrı bir repo olarak yükledim burada hem html, css ve js de pratik yapıyor olabilmek beni çok mutlu ediyor şimdi çalışmaya devam :)
