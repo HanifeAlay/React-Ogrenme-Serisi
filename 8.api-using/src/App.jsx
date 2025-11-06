@@ -27,17 +27,25 @@ function App() {
      await axios.put(`${BASE_URL}/users/${userId}`, updatedUser);
     }
 
+    // bilgi silme 
+    const deleteUserById = async(userId) => {
+      const deleteResponse = await axios.delete(`${BASE_URL}/users/${userId}`)
+      console.log(deleteReponse.data);
+    }
+
 
     useEffect (()=>{
+      deleteUserById ("7403");
       // const newUser = {
       //  "username" : "Yusuf",
        // "password" : "6767"
       //}
       //createUser(newUser)
-      updateUser("5631", {
-        "username" : "Muhammed",
-        "password" : "1212"
-      })
+      //updateUser("5631", {
+        //"username" : "Muhammed",
+        //"password" : "1212"
+      //})
+
     },[])
 
   return (
