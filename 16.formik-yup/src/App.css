@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: darkslategray;
+    color: #fff;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+
+}
+
+form {
+    width: 500px;
+}
+
+input {
+    width: 100%;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+    background-color: darkslategray;
+    border-bottom: 1px solid lightgray;
+    outline: none;
+    color: #fff;
+}
+
+.inputDiv {
+    margin: 30px 0px;
+}
+
+.btn-grad {
+    background-image: linear-gradient(to right, #603813 0%, #b29f94 51%, #603813 100%)
+}
+
+.btn-grad {
+    margin: 10px;
+    padding: 15px 45px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    box-shadow: 0 0 2px #eee;
+    border-radius: 10px;
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn-grad:hover {
+    background-position: right center;
+    color: #fff;
+    text-decoration: none;
+}
